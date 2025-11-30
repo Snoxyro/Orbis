@@ -14,6 +14,10 @@ Usage:
     cd api/database/ingest
     python3 ingest.py example_courses.json
 
+Requirements:
+    - PostgreSQL with pgvector extension running
+    - Embedding service running (docker-compose up -d embeddings)
+
 Note:
     For production data management, use proper admin APIs/tools.
     This script is just a convenience tool, not a maintainable solution.
@@ -22,25 +26,35 @@ Note:
 import json
 import sys
 import os
+from pathlib import Path
 from sqlalchemy import create_engine, Column, Integer, String, Text, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
-from sentence_transformers import SentenceTransformer
 from pgvector.sqlalchemy import Vector
+
+# Add parent directory to path to import services
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from services.embedding_service import get_embedding_service
 
 # Database connection
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/orbisdb")
+
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 
 # Models (duplicated here to be standalone)
 Base = declarative_base()
 
-# Load embedding model
-print("Loading embedding model...")
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
-EMBEDDING_DIM = embedding_model.get_sentence_embedding_dimension()
-print(f"✓ Model loaded! Dimension: {EMBEDDING_DIM}")
+# Initialize embedding service
+print("Initializing embedding service...")
+try:
+    embedding_service = get_embedding_service()
+    EMBEDDING_DIM = embedding_service.get_dimension()
+    print(f"✓ Embedding service ready! Dimension: {EMBEDDING_DIM}")
+except Exception as e:
+    print(f"❌ Failed to initialize embedding service: {e}")
+    print("Make sure Docker container is running: docker-compose up -d embeddings")
+    sys.exit(1)
 
 
 class Course(Base):
@@ -81,8 +95,8 @@ def ingest_courses(filepath: str):
             # Create text for embedding from keywords or description
             embed_text = course_data.get('keywords', course_data.get('description', course_data['name']))
             
-            # Generate embedding
-            embedding = embedding_model.encode(embed_text, convert_to_numpy=True).tolist()
+            # Generate embedding using EmbeddingService
+            embedding = embedding_service.embed_text(embed_text)
             
             # Create course
             course = Course(

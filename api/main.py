@@ -19,7 +19,7 @@ app.include_router(search_router, prefix="/api", tags=["search"])
 
 @app.get("/")
 async def root():
-    return {"message": "UniChatBot API is running"}
+    return {"message": "API is running"}
 
 
 @app.get("/health")

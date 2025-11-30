@@ -14,5 +14,13 @@ services:
       - postgres_data:/var/lib/postgresql
     restart: unless-stopped
 
+  embeddings:
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-latest
+    container_name: embeddings
+    command: --model-id sentence-transformers/all-MiniLM-L6-v2
+    ports:
+      - "7860:80"
+    restart: unless-stopped
+
 volumes:
   postgres_data:

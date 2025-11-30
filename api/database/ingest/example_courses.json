@@ -1,1759 +1,464 @@
 {
-"courses": [
-{
-"id": 1,
-"code": "CMPE 100",
-"name": "Introduction to Computing",
-"description": "The aim of this course is to introduce fundamental computing concepts to first year college students. The course focuses on working in teams, group functioning, designing programming, use functional programming, and how to effectively use computers.",
-"keywords": "computing basics, binary, algorithms, hardware and software, data representation, internet, security, spreadsheets, databases, AI, ethics",
-"content": [
-{
-"week_number": 1,
-"topic": "What is Computing? History of computers, hardware vs. software, binary representation"
-},
-{
-"week_number": 2,
-"topic": "How Computers Work — CPU, memory, storage, I/O devices, operating systems basics"
-},
-{
-"week_number": 3,
-"topic": "Digital Information — Data representation, bits and bytes, text encoding, digital images"
-},
-{
-"week_number": 4,
-"topic": "Introduction to Algorithms — Problem-solving, flowcharts, pseudocode, step-by-step thinking"
-},
-{
-"week_number": 5,
-"topic": "Introduction to Programming Concepts — Variables, basic data types, simple expressions"
-},
-{
-"week_number": 6,
-"topic": "Control Structures — Conditionals (if/else), simple loops, logical thinking"
-},
-{
-"week_number": 7,
-"topic": "Functions and Modularity — Breaking problems into smaller parts, code reuse basics"
-},
-{
-"week_number": 8,
-"topic": "Data Organization — Lists, simple data structures, working with collections"
-},
-{
-"week_number": 9,
-"topic": "Networks and the Internet — How the internet works, protocols, web basics, URLs, browsers"
-},
-{
-"week_number": 10,
-"topic": "Computer Security and Privacy — Passwords, encryption basics, online safety, privacy concerns"
-},
-{
-"week_number": 11,
-"topic": "Spreadsheets and Data Analysis — Using spreadsheets for computation, formulas, basic charts"
-},
-{
-"week_number": 12,
-"topic": "Databases and Information Management — How data is stored and retrieved, basic queries"
-},
-{
-"week_number": 13,
-"topic": "Artificial Intelligence and Current Topics — Machine learning basics, AI applications, ethics"
-},
-{
-"week_number": 14,
-"topic": "Computing in Society — Social impact of computing, career paths, course review"
-}
-]
-},
-{
-"id": 2,
-"code": "CMPE 101",
-"name": "Introduction to Object-Oriented Programming",
-"description": "This course introduces the fundamentals of Object-Oriented Programming (OOP) using Java, covering core concepts such as classes, methods, encapsulation, inheritance, and polymorphism. Students will develop problem-solving skills through hands-on exercises.",
-"keywords": "Java, object-oriented programming, classes, inheritance, polymorphism, arrays, exceptions, file I/O",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Java — JVM, IDE setup, first program, compilation, basic syntax"
-},
-{
-"week_number": 2,
-"topic": "Variables and Data Types — Primitive types, declarations, type casting, operators"
-},
-{
-"week_number": 3,
-"topic": "Expressions and Basic I/O — Arithmetic expressions, Scanner for input, print statements"
-},
-{
-"week_number": 4,
-"topic": "Control Flow I — Conditional statements (if, if-else, switch), boolean expressions"
-},
-{
-"week_number": 5,
-"topic": "Control Flow II — Loops (for, while, do-while), nested control structures"
-},
-{
-"week_number": 6,
-"topic": "Methods — Defining methods, parameters, return values, method overloading"
-},
-{
-"week_number": 7,
-"topic": "Introduction to Classes and Objects — Class design, instance variables, constructors, this keyword"
-},
-{
-"week_number": 8,
-"topic": "Object-Oriented Design — Encapsulation, access modifiers, getters/setters, object interaction"
-},
-{
-"week_number": 9,
-"topic": "Arrays — Array declaration, initialization, traversal, arrays of objects, ArrayList introduction"
-},
-{
-"week_number": 10,
-"topic": "Inheritance — Superclasses/subclasses, extends keyword, method overriding, super keyword"
-},
-{
-"week_number": 11,
-"topic": "Polymorphism and Abstract Classes — Dynamic binding, abstract methods, designing class hierarchies"
-},
-{
-"week_number": 12,
-"topic": "Interfaces and Packages — Interface definition, implementing interfaces, organizing code in packages"
-},
-{
-"week_number": 13,
-"topic": "Exception Handling — Try-catch blocks, throwing exceptions, checked vs. unchecked exceptions"
-},
-{
-"week_number": 14,
-"topic": "File I/O and Course Review — Reading/writing files, streams, comprehensive review"
-}
-]
-},
-{
-"id": 3,
-"code": "CMPE 102",
-"name": "Introduction to Programming with Python",
-"description": "This course aims to equip engineering students who are not specializing in computing with the necessary skills to design and implement simple computer programs of practical use in Python to solve mathematical and scientific problems.",
-"keywords": "Python, introductory programming, control flow, functions, lists, dictionaries, OOP basics",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Computing and Python — What is programming, Python setup, first program, print statements"
-},
-{
-"week_number": 2,
-"topic": "Variables and Data Types — Integers, floats, strings, booleans, type conversion, basic operators"
-},
-{
-"week_number": 3,
-"topic": "Expressions and User Input — Arithmetic expressions, input function, string operations"
-},
-{
-"week_number": 4,
-"topic": "Control Flow I — Conditional statements (if, elif, else), boolean logic, comparison operators"
-},
-{
-"week_number": 5,
-"topic": "Control Flow II — While loops, for loops, range function, loop patterns, break/continue"
-},
-{
-"week_number": 6,
-"topic": "Functions — Defining functions, parameters, return values, scope, docstrings"
-},
-{
-"week_number": 7,
-"topic": "Strings and String Processing — String methods, slicing, formatting, text manipulation"
-},
-{
-"week_number": 8,
-"topic": "Lists — List creation, indexing, slicing, list methods, iteration over lists"
-},
-{
-"week_number": 9,
-"topic": "Tuples and Dictionaries — Immutable sequences, key-value pairs, dictionary operations"
-},
-{
-"week_number": 10,
-"topic": "File I/O — Opening files, reading/writing, file handling patterns, CSV files"
-},
-{
-"week_number": 11,
-"topic": "Testing and Debugging — Testing strategies, debugging techniques, assertions, common errors"
-},
-{
-"week_number": 12,
-"topic": "Object-Oriented Programming Basics — Classes, objects, init, instance methods, self"
-},
-{
-"week_number": 13,
-"topic": "More OOP and Modules — Inheritance basics, importing modules, using standard libraries"
-},
-{
-"week_number": 14,
-"topic": "Algorithm Efficiency and Review — Big-O introduction, searching, sorting basics, course review"
-}
-]
-},
-{
-"id": 4,
-"code": "CMPE 150",
-"name": "Discrete Mathematics for Computer Science",
-"description": "Bu ders, temel matematik tanımlarını ve bilgisayar bilimleri ve mühendislik uygulamalarını kapsamaktadır. Bu dersin sonunda öğrenciler, teorik matematik ile pratik bilgisayar bilimleri ve mühendisliği arasındaki ilişki ile donanmış olurlar.",
-"keywords": "discrete mathematics, logic, sets, functions, relations, induction, counting, probability, graph theory",
-"content": [
-{
-"week_number": 1,
-"topic": "Propositional Logic I — Propositions, logical connectives (AND, OR, NOT), truth tables"
-},
-{
-"week_number": 2,
-"topic": "Propositional Logic II — Logical equivalence, implications, contrapositive, normal forms"
-},
-{
-"week_number": 3,
-"topic": "Predicate Logic — Predicates, quantifiers (universal, existential), nested quantifiers"
-},
-{
-"week_number": 4,
-"topic": "Proof Techniques I — Direct proof, proof by contraposition, proof by contradiction"
-},
-{
-"week_number": 5,
-"topic": "Proof Techniques II — Proof by cases, existence proofs, constructive vs. non-constructive"
-},
-{
-"week_number": 6,
-"topic": "Sets and Set Operations — Set notation, subsets, union, intersection, complement, power sets"
-},
-{
-"week_number": 7,
-"topic": "Functions — One-to-one, onto, bijections, inverse functions, composition"
-},
-{
-"week_number": 8,
-"topic": "Relations — Properties of relations, equivalence relations, partial orderings"
-},
-{
-"week_number": 9,
-"topic": "Mathematical Induction — Weak induction, strong induction, well-ordering principle"
-},
-{
-"week_number": 10,
-"topic": "Recursion and Recurrence Relations — Recursive definitions, solving recurrences"
-},
-{
-"week_number": 11,
-"topic": "Counting I — Basic counting principles, sum rule, product rule, pigeonhole principle"
-},
-{
-"week_number": 12,
-"topic": "Counting II — Permutations, combinations, binomial coefficients, Pascal's triangle"
-},
-{
-"week_number": 13,
-"topic": "Introduction to Probability — Sample spaces, events, conditional probability, Bayes' theorem"
-},
-{
-"week_number": 14,
-"topic": "Graph Theory Basics — Graph terminology, types of graphs, paths, connectivity, trees"
-}
-]
-},
-{
-"id": 5,
-"code": "CMPE 211",
-"name": "Data Structures and Algorithms",
-"description": "This course covers the basic science behind the use of computers to provide effective and efficient methods for carrying out tasks. This course introduces the basic sorting and searching methods and dynamic data structures such as linked lists, trees and hash tables.",
-"keywords": "data structures, algorithms, complexity, arrays, linked lists, trees, graphs, sorting, hashing",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Algorithms and Complexity Analysis — Big-O, Big-Omega, Big-Theta notation"
-},
-{
-"week_number": 2,
-"topic": "Arrays, Dynamic Arrays, and Amortized Analysis"
-},
-{
-"week_number": 3,
-"topic": "Linked Lists (Singly, Doubly, Circular) and Abstract Data Types"
-},
-{
-"week_number": 4,
-"topic": "Stacks, Queues, and Deques"
-},
-{
-"week_number": 5,
-"topic": "Recursion and Basic Sorting — Bubble sort, selection sort, insertion sort"
-},
-{
-"week_number": 6,
-"topic": "Divide-and-Conquer — Merge sort and quicksort"
-},
-{
-"week_number": 7,
-"topic": "Binary Trees — Tree traversals and binary search trees"
-},
-{
-"week_number": 8,
-"topic": "Balanced Trees — AVL trees, red-black trees"
-},
-{
-"week_number": 9,
-"topic": "Heaps and Priority Queues"
-},
-{
-"week_number": 10,
-"topic": "Hash Tables — Hash functions and collision resolution"
-},
-{
-"week_number": 11,
-"topic": "Introduction to Graphs — Representations, BFS, and DFS"
-},
-{
-"week_number": 12,
-"topic": "Graph Applications — Topological sort and connected components"
-},
-{
-"week_number": 13,
-"topic": "Shortest Path Algorithms — Dijkstra's, Bellman-Ford"
-},
-{
-"week_number": 14,
-"topic": "Minimum Spanning Trees — Prim's, Kruskal's algorithms, course review"
-}
-]
-},
-{
-"id": 6,
-"code": "CMPE 220",
-"name": "Modern DevOps Practices",
-"description": "In this course on Modern DevOps Practices, students dive deep into the transformative methodologies that are revolutionizing how development and operations teams collaborate. This course provides a practical understanding of how to implement and leverage modern DevOps practices.",
-"keywords": "DevOps, CI/CD, Docker, Kubernetes, Terraform, Ansible, monitoring, cloud, automation",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to DevOps — Philosophy, culture, principles, Dev/Ops collaboration"
-},
-{
-"week_number": 2,
-"topic": "Linux Fundamentals — Command-line navigation, shell scripting, system monitoring"
-},
-{
-"week_number": 3,
-"topic": "Version Control with Git — Branching strategies, merging, pull requests, Git workflows"
-},
-{
-"week_number": 4,
-"topic": "Continuous Integration — CI principles, build automation, Jenkins/GitHub Actions"
-},
-{
-"week_number": 5,
-"topic": "Continuous Delivery and Deployment — CD pipelines, deployment strategies (blue-green, canary)"
-},
-{
-"week_number": 6,
-"topic": "Containerization with Docker — Container basics, Dockerfiles, images, volumes, multi-stage builds"
-},
-{
-"week_number": 7,
-"topic": "Docker Compose — Multi-container applications, YAML configuration, Docker networking"
-},
-{
-"week_number": 8,
-"topic": "Kubernetes Fundamentals — Architecture, pods, services, deployments, kubectl"
-},
-{
-"week_number": 9,
-"topic": "Advanced Kubernetes — ConfigMaps, secrets, persistent volumes, Helm charts"
-},
-{
-"week_number": 10,
-"topic": "Infrastructure as Code with Terraform — IaC principles, configuration, state management"
-},
-{
-"week_number": 11,
-"topic": "Configuration Management with Ansible — Playbooks, inventory, roles, idempotency"
-},
-{
-"week_number": 12,
-"topic": "Cloud Platforms for DevOps — AWS/Azure/GCP DevOps services"
-},
-{
-"week_number": 13,
-"topic": "Monitoring and Observability — Prometheus, Grafana, ELK stack, SRE principles"
-},
-{
-"week_number": 14,
-"topic": "DevOps Security and Best Practices — DevSecOps, container security, secrets management"
-}
-]
-},
-{
-"id": 7,
-"code": "CMPE 223",
-"name": "Theory of Computation",
-"description": "This course teaches regular languages, context-free languages and the automata related to these: finite-state automata and push-down automata. The machinery are explained and studied mathematically. Also, regular grammars and context-free grammars and regular expressions are studied extensively.",
-"keywords": "theory of computation, automata, regular languages, context-free languages, Turing machines, decidability, complexity, NP-completeness",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Theory of Computation — Mathematical preliminaries and proof techniques"
-},
-{
-"week_number": 2,
-"topic": "Finite Automata — Deterministic Finite Automata (DFA)"
-},
-{
-"week_number": 3,
-"topic": "Nondeterministic Finite Automata (NFA) — NFA-DFA equivalence"
-},
-{
-"week_number": 4,
-"topic": "Regular Expressions — Regular languages and closure properties"
-},
-{
-"week_number": 5,
-"topic": "Pumping Lemma for Regular Languages — Non-regular languages"
-},
-{
-"week_number": 6,
-"topic": "Context-Free Grammars (CFG) — Parse trees, ambiguity"
-},
-{
-"week_number": 7,
-"topic": "Pushdown Automata (PDA) — CFG-PDA equivalence"
-},
-{
-"week_number": 8,
-"topic": "Pumping Lemma for Context-Free Languages — Closure properties of CFLs"
-},
-{
-"week_number": 9,
-"topic": "Turing Machines — Definition, variants, and Church-Turing thesis"
-},
-{
-"week_number": 10,
-"topic": "Decidability — Decidable languages, the Halting Problem"
-},
-{
-"week_number": 11,
-"topic": "Reducibility — Rice's theorem, undecidable problems"
-},
-{
-"week_number": 12,
-"topic": "Time Complexity — P and NP, polynomial-time reducibility"
-},
-{
-"week_number": 13,
-"topic": "NP-Completeness — Cook-Levin theorem, NP-complete problems"
-},
-{
-"week_number": 14,
-"topic": "Space Complexity (PSPACE) — Course review"
-}
-]
-},
-{
-"id": 8,
-"code": "CMPE 250",
-"name": "Advanced Data Structures and Algorithms",
-"description": "This course builds on CMPE 211 to apply similar techniques to analyse more sophisticated algorithms and data structures. Topics covered include graphs and graph algorithms, greedy algorithms, random algorithms, divide and conquer algorithms, dynamic programming and string searching algorithms.",
-"keywords": "advanced algorithms, dynamic programming, network flow, NP-hard, approximation algorithms, randomized algorithms",
-"content": [
-{
-"week_number": 1,
-"topic": "Review of Asymptotic Analysis — Recurrences and the Master Theorem"
-},
-{
-"week_number": 2,
-"topic": "Amortized Analysis — Aggregate, accounting, potential methods"
-},
-{
-"week_number": 3,
-"topic": "Dynamic Programming I — Principles, memoization vs. tabulation"
-},
-{
-"week_number": 4,
-"topic": "Dynamic Programming II — Classic problems (LCS, edit distance, knapsack)"
-},
-{
-"week_number": 5,
-"topic": "Advanced Graph Algorithms — Strongly connected components, all-pairs shortest paths"
-},
-{
-"week_number": 6,
-"topic": "Network Flow I — Ford-Fulkerson, max-flow min-cut theorem"
-},
-{
-"week_number": 7,
-"topic": "Network Flow II — Applications (bipartite matching, minimum cut)"
-},
-{
-"week_number": 8,
-"topic": "Linear Programming — Formulation, duality, and simplex overview"
-},
-{
-"week_number": 9,
-"topic": "NP-Completeness — Formal definitions, reductions, proving NP-completeness"
-},
-{
-"week_number": 10,
-"topic": "Coping with NP-Hardness — Backtracking, branch-and-bound"
-},
-{
-"week_number": 11,
-"topic": "Approximation Algorithms I — Vertex cover, set cover, TSP"
-},
-{
-"week_number": 12,
-"topic": "Approximation Algorithms II — Approximation schemes (PTAS, FPTAS)"
-},
-{
-"week_number": 13,
-"topic": "Randomized Algorithms — Las Vegas vs. Monte Carlo, randomized quicksort, min-cut"
-},
-{
-"week_number": 14,
-"topic": "Advanced Topics — String matching or computational geometry, course review"
-}
-]
-},
-{
-"id": 9,
-"code": "CMPE 258",
-"name": "Data Science and Social Media Analysis",
-"description": "This course aims to provide students with a general understanding of data science and social media analysis, including their design. In addition, the design processes for and programming used in developing such systems will be addressed.",
-"keywords": "data science, social media, APIs, network analysis, sentiment analysis, topic modeling, ethics",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Social Media Data Science — Data types, structured vs. unstructured data"
-},
-{
-"week_number": 2,
-"topic": "Social Media APIs and Data Collection — Working with Twitter, Reddit, YouTube APIs"
-},
-{
-"week_number": 3,
-"topic": "Data Storage and Management — NoSQL databases, JSON handling, data preprocessing"
-},
-{
-"week_number": 4,
-"topic": "Exploratory Data Analysis — Summary statistics, temporal patterns, geographic analysis"
-},
-{
-"week_number": 5,
-"topic": "Network Fundamentals — Graph theory basics, social network representations"
-},
-{
-"week_number": 6,
-"topic": "Network Analysis Metrics — Centrality measures (degree, betweenness, closeness)"
-},
-{
-"week_number": 7,
-"topic": "Community Detection and Clustering — Graph clustering algorithms, modularity"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Review"
-},
-{
-"week_number": 9,
-"topic": "Text Processing Fundamentals — Tokenization, stemming, lemmatization, TF-IDF"
-},
-{
-"week_number": 10,
-"topic": "Sentiment Analysis — Lexicon-based approaches, machine learning classifiers"
-},
-{
-"week_number": 11,
-"topic": "Topic Modeling — LDA, topic extraction over time, hashtag analysis"
-},
-{
-"week_number": 12,
-"topic": "Influence and Virality — Information diffusion, influencer identification"
-},
-{
-"week_number": 13,
-"topic": "Ethical Considerations — Privacy, consent, data governance, research ethics"
-},
-{
-"week_number": 14,
-"topic": "Final Project Presentations and Course Wrap-up"
-}
-]
-},
-{
-"id": 10,
-"code": "CMPE 260",
-"name": "Concurrent Programming",
-"description": "This course offers an exploration of the widely used programming languages C++, Python, and Java, focusing on their unique strengths and areas of application. Students will delve into topics such as object-oriented programming, concurrency, concurrent process design, critical section access, mutual exclusion, threads, semaphores, and sockets.",
-"keywords": "concurrency, threads, synchronization, locks, semaphores, deadlock, parallel programming, memory models",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Concurrency — Motivation, processes vs. threads, safety and liveness properties"
-},
-{
-"week_number": 2,
-"topic": "Thread Fundamentals — Thread creation, Java threads, Python threading, POSIX threads"
-},
-{
-"week_number": 3,
-"topic": "Shared Memory and Race Conditions — Shared data problems, atomicity, critical sections"
-},
-{
-"week_number": 4,
-"topic": "Mutual Exclusion — Peterson's algorithm, test-and-set, compare-and-swap"
-},
-{
-"week_number": 5,
-"topic": "Locks and Lock-based Synchronization — Mutex locks, reentrant locks, reader-writer locks"
-},
-{
-"week_number": 6,
-"topic": "Semaphores — Counting and binary semaphores, producer-consumer problem"
-},
-{
-"week_number": 7,
-"topic": "Monitors and Condition Variables — Monitor concept, Java synchronized, wait/notify"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Review"
-},
-{
-"week_number": 9,
-"topic": "Deadlock and Livelock — Deadlock conditions, prevention, detection, recovery"
-},
-{
-"week_number": 10,
-"topic": "Concurrent Data Structures — Thread-safe collections, lock-free data structures"
-},
-{
-"week_number": 11,
-"topic": "Parallel Programming Patterns — Fork-join, map-reduce, OpenMP basics, thread pools"
-},
-{
-"week_number": 12,
-"topic": "Memory Models and Atomics — Java memory model, happens-before, volatile, memory barriers"
-},
-{
-"week_number": 13,
-"topic": "Actor Model and Message Passing — Actor-based concurrency, async programming patterns"
-},
-{
-"week_number": 14,
-"topic": "Advanced Topics and Project Presentations — Transactional memory, parallel algorithm design"
-}
-]
-},
-{
-"id": 11,
-"code": "CMPE 283",
-"name": "Cloud Programming",
-"description": "Programs running on the cloud to provide services to users or computers elsewhere are becoming increasingly important. This course looks at the issues involved in writing service-providing programs, using the latest programming languages and technology.",
-"keywords": "cloud programming, microservices, REST APIs, serverless, containers, message queues, observability, security",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Cloud-Native Development — Cloud computing overview, 12-factor app methodology"
-},
-{
-"week_number": 2,
-"topic": "Cloud Service Models — IaaS, PaaS, SaaS, FaaS comparison"
-},
-{
-"week_number": 3,
-"topic": "Microservices Architecture — Monolith vs. microservices, decomposition strategies"
-},
-{
-"week_number": 4,
-"topic": "RESTful API Design — REST principles, API design best practices, Flask/Express"
-},
-{
-"week_number": 5,
-"topic": "API Documentation and Testing — OpenAPI/Swagger, API testing with Postman"
-},
-{
-"week_number": 6,
-"topic": "Containerizing Cloud Applications — Docker for microservices, image optimization"
-},
-{
-"week_number": 7,
-"topic": "Service Communication Patterns — Synchronous vs. asynchronous, API gateways"
-},
-{
-"week_number": 8,
-"topic": "Serverless Computing Fundamentals — AWS Lambda, Azure Functions, Google Cloud Functions"
-},
-{
-"week_number": 9,
-"topic": "Serverless Application Development — Event-driven functions, triggers, cold starts"
-},
-{
-"week_number": 10,
-"topic": "Message Queues and Event-Driven Architecture — Kafka, RabbitMQ, SQS, pub/sub patterns"
-},
-{
-"week_number": 11,
-"topic": "Container Orchestration for Microservices — Kubernetes, service mesh (Istio)"
-},
-{
-"week_number": 12,
-"topic": "Cloud Database Services — Managed databases, NoSQL, database-per-service pattern"
-},
-{
-"week_number": 13,
-"topic": "Observability in Cloud Applications — Distributed tracing, logging, OpenTelemetry"
-},
-{
-"week_number": 14,
-"topic": "Cloud Application Security — OAuth/JWT authentication, secrets management, final project"
-}
-]
-},
-{
-"id": 12,
-"code": "CMPE 322",
-"name": "Data Engineering",
-"description": "In this course, students will learn about many engineering tasks related to data. Students will specialize in many topics such as data visualization, data analysis, linear regression, and modeling. These topics will be reinforced with both theoretical and practical examples.",
-"keywords": "data engineering, data pipelines, ETL, SQL, data lakes, data warehouses, Spark, Airflow, governance",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Data Engineering — Role of data engineers, modern data stack overview"
-},
-{
-"week_number": 2,
-"topic": "Data Pipeline Fundamentals — End-to-end architecture, batch vs. streaming"
-},
-{
-"week_number": 3,
-"topic": "SQL Review and Advanced Queries — Aggregate functions, joins, window functions"
-},
-{
-"week_number": 4,
-"topic": "Source Systems and Data Ingestion — Operational databases, APIs, file formats (CSV, JSON, Parquet)"
-},
-{
-"week_number": 5,
-"topic": "Data Lakes and Data Warehouses — Architecture comparison, data lakehouses"
-},
-{
-"week_number": 6,
-"topic": "Data Modeling for Analytics — ER diagrams, dimensional modeling, star schema"
-},
-{
-"week_number": 7,
-"topic": "ETL/ELT Processes — Extract, Transform, Load patterns, dbt"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Review"
-},
-{
-"week_number": 9,
-"topic": "Big Data Fundamentals — Hadoop ecosystem, HDFS, MapReduce concepts"
-},
-{
-"week_number": 10,
-"topic": "Apache Spark — Spark architecture, RDDs, DataFrames, PySpark basics"
-},
-{
-"week_number": 11,
-"topic": "Data Quality and Profiling — Data validation, quality metrics, handling missing data"
-},
-{
-"week_number": 12,
-"topic": "Data Orchestration and Scheduling — Workflow orchestration, Apache Airflow"
-},
-{
-"week_number": 13,
-"topic": "Data Governance and Catalogs — Metadata management, data lineage, compliance"
-},
-{
-"week_number": 14,
-"topic": "Final Project Presentations — End-to-end pipeline demonstration"
-}
-]
-},
-{
-"id": 13,
-"code": "CMPE 462",
-"name": "Machine Learning",
-"description": "Machine learning concerns the construction of systems that can learn from data. This course covers the theory and practical algorithms for machine learning focusing on classification, clustering, dimensionality reduction and reinforcement learning.",
-"keywords": "machine learning, classification, regression, SVM, neural networks, deep learning, clustering, ensembles, reinforcement learning",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Machine Learning — Supervised vs. unsupervised learning, model evaluation"
-},
-{
-"week_number": 2,
-"topic": "Decision Trees — ID3, information gain, entropy, pruning"
-},
-{
-"week_number": 3,
-"topic": "k-Nearest Neighbors — Instance-based learning, distance metrics"
-},
-{
-"week_number": 4,
-"topic": "Linear Models I — Perceptron algorithm, linear separability"
-},
-{
-"week_number": 5,
-"topic": "Linear Models II — Linear regression, gradient descent, optimization"
-},
-{
-"week_number": 6,
-"topic": "Logistic Regression — Maximum likelihood estimation, regularization (L1/L2)"
-},
-{
-"week_number": 7,
-"topic": "Support Vector Machines — Linear SVMs, kernels, soft margins"
-},
-{
-"week_number": 8,
-"topic": "Neural Networks I — Multilayer perceptrons, backpropagation algorithm"
-},
-{
-"week_number": 9,
-"topic": "Neural Networks II — Deep learning basics, activation functions, training techniques"
-},
-{
-"week_number": 10,
-"topic": "Convolutional Neural Networks — CNNs, applications in computer vision"
-},
-{
-"week_number": 11,
-"topic": "Unsupervised Learning — K-means clustering, hierarchical clustering, GMMs, EM algorithm"
-},
-{
-"week_number": 12,
-"topic": "Dimensionality Reduction — PCA, feature selection"
-},
-{
-"week_number": 13,
-"topic": "Ensemble Methods — Bagging, random forests, boosting/AdaBoost"
-},
-{
-"week_number": 14,
-"topic": "Reinforcement Learning Introduction — Learning theory (PAC, VC dimension), course review"
-}
-]
-},
-{
-"id": 14,
-"code": "CMPE 360",
-"name": "Computer Graphics",
-"description": "This course offers a comprehensive introduction to the field of computer graphics, covering fundamental concepts, algorithms, and techniques for both two-dimensional and three-dimensional graphics. Advanced rendering techniques such as ray tracing is also introduced.",
-"keywords": "computer graphics, 2D graphics, 3D graphics, transformations, OpenGL, shading, texturing, ray tracing",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Computer Graphics — History, applications, graphics pipeline, coordinate systems"
-},
-{
-"week_number": 2,
-"topic": "Linear Algebra Review and 2D Graphics — Vectors, matrices, rasterization (Bresenham's algorithm)"
-},
-{
-"week_number": 3,
-"topic": "2D Transformations — Translation, rotation, scaling, homogeneous coordinates"
-},
-{
-"week_number": 4,
-"topic": "3D Transformations — 3D coordinate systems, rotation matrices, Euler angles, quaternions"
-},
-{
-"week_number": 5,
-"topic": "Viewing and Projection — Camera models, orthographic and perspective projection"
-},
-{
-"week_number": 6,
-"topic": "Graphics Pipeline and OpenGL/WebGL — Modern pipeline, vertex and fragment processing"
-},
-{
-"week_number": 7,
-"topic": "Programmable Shaders — GLSL fundamentals, vertex shaders, fragment shaders"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Polygon Rendering — Scan conversion, clipping, hidden surface removal"
-},
-{
-"week_number": 9,
-"topic": "Illumination and Reflection Models — Phong reflection model (ambient, diffuse, specular)"
-},
-{
-"week_number": 10,
-"topic": "Shading Techniques — Flat, Gouraud, and Phong shading, per-pixel lighting"
-},
-{
-"week_number": 11,
-"topic": "Texture Mapping — Texture coordinates, filtering (mipmapping), bump mapping"
-},
-{
-"week_number": 12,
-"topic": "Advanced Rendering Techniques — Shadow mapping, deferred rendering, anti-aliasing"
-},
-{
-"week_number": 13,
-"topic": "Ray Tracing Fundamentals — Ray-object intersection, recursive ray tracing, acceleration structures"
-},
-{
-"week_number": 14,
-"topic": "Advanced Topics — Global illumination, GPU computing, final projects"
-}
-]
-},
-{
-"id": 15,
-"code": "CMPE 365",
-"name": "Machine Translation",
-"description": "The aim of this course is to teach primary concepts and programming skills about machine translation (MT) and train students who have fundamental understandings about MT applications. Students gain experience about coding with python and learn using python libraries effectively.",
-"keywords": "machine translation, SMT, NMT, transformers, BLEU, evaluation, low-resource MT",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Machine Translation — History (rule-based, statistical, neural), evaluation challenges"
-},
-{
-"week_number": 2,
-"topic": "Linguistic Foundations — Morphology, word alignment problems"
-},
-{
-"week_number": 3,
-"topic": "Statistical Machine Translation I — Noisy channel model, IBM Models 1 and 2"
-},
-{
-"week_number": 4,
-"topic": "Statistical Machine Translation II — Phrase-based translation, language models"
-},
-{
-"week_number": 5,
-"topic": "MT Evaluation Metrics — BLEU, METEOR, TER, ROUGE, human evaluation"
-},
-{
-"week_number": 6,
-"topic": "Neural Network Foundations for MT — Word embeddings, encoder-decoder framework"
-},
-{
-"week_number": 7,
-"topic": "Sequence-to-Sequence Models — RNN/LSTM-based translation"
-},
-{
-"week_number": 8,
-"topic": "Attention Mechanisms — Bahdanau attention, Luong attention, visualization"
-},
-{
-"week_number": 9,
-"topic": "Transformer Architecture I — Self-attention, positional encoding, multi-head attention"
-},
-{
-"week_number": 10,
-"topic": "Transformer Architecture II — Complete transformer model, layer normalization"
-},
-{
-"week_number": 11,
-"topic": "Subword Tokenization — BPE, WordPiece, SentencePiece, handling rare words"
-},
-{
-"week_number": 12,
-"topic": "Advanced NMT Topics — Multilingual MT, zero-shot translation, transfer learning"
-},
-{
-"week_number": 13,
-"topic": "Low-Resource Machine Translation — Domain adaptation, back-translation"
-},
-{
-"week_number": 14,
-"topic": "Current Trends — Large language models for MT, quality estimation, project presentations"
-}
-]
-},
-{
-"id": 16,
-"code": "CMPE 323",
-"name": "Operating Systems",
-"description": "Operating systems play a fundamental role in the use of computers and are of enormous commercial importance. Contents include classification and structure of operating systems, storage media, memory management and dynamic storage strategies, scheduling algorithms, I/O and interrupt structures, protection and security.",
-"keywords": "operating systems, processes, threads, scheduling, synchronization, deadlocks, virtual memory, file systems, security",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Operating Systems — History, OS roles, system calls, kernel vs. user mode"
-},
-{
-"week_number": 2,
-"topic": "Processes — Process concept, process states, PCB, context switching, process creation"
-},
-{
-"week_number": 3,
-"topic": "Threads — Thread models, user vs. kernel threads, multithreading, Pthreads programming"
-},
-{
-"week_number": 4,
-"topic": "CPU Scheduling — Scheduling criteria, algorithms (FCFS, SJF, priority, round-robin)"
-},
-{
-"week_number": 5,
-"topic": "Process Synchronization I — Critical section problem, Peterson's solution, mutex locks"
-},
-{
-"week_number": 6,
-"topic": "Process Synchronization II — Semaphores, classical problems (producer-consumer, dining philosophers)"
-},
-{
-"week_number": 7,
-"topic": "Deadlocks — Deadlock characterization, prevention, avoidance (Banker's algorithm), detection"
-},
-{
-"week_number": 8,
-"topic": "Memory Management — Address spaces, address binding, swapping, contiguous allocation, paging"
-},
-{
-"week_number": 9,
-"topic": "Virtual Memory — Demand paging, page faults, page replacement algorithms, thrashing"
-},
-{
-"week_number": 10,
-"topic": "Storage Management — Disk structure, disk scheduling (FCFS, SSTF, SCAN), RAID"
-},
-{
-"week_number": 11,
-"topic": "File Systems I — File concepts, access methods, directory structure, file sharing"
-},
-{
-"week_number": 12,
-"topic": "File Systems II — File system implementation, allocation methods, free-space management"
-},
-{
-"week_number": 13,
-"topic": "I/O Systems — I/O hardware, application I/O interface, interrupt handling, DMA"
-},
-{
-"week_number": 14,
-"topic": "Protection and Security — Access control, authentication, security threats, virtualization overview"
-}
-]
-},
-{
-"id": 17,
-"code": "CMPE 344",
-"name": "Computer Architecture",
-"description": "This course is the continuation of Digital Design course where logic gates, combinational and sequential circuits are studied. Starting from register design, memory design, ALU, datapath design are covered. Instruction set architecture with examples are covered. RISC and CISC architectures are reviewed.",
-"keywords": "computer architecture, ISA, pipelines, hazards, caching, virtual memory, ILP, multiprocessors, GPUs",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Computer Architecture — Performance metrics, Amdahl's Law, ISA abstraction"
-},
-{
-"week_number": 2,
-"topic": "Instruction Set Architecture — RISC vs. CISC, MIPS/RISC-V instruction formats, addressing modes"
-},
-{
-"week_number": 3,
-"topic": "Digital Logic Review — Combinational logic, multiplexers, ALU design, sequential logic"
-},
-{
-"week_number": 4,
-"topic": "Single-Cycle Processor Design — Datapath components, control unit design, instruction execution"
-},
-{
-"week_number": 5,
-"topic": "Multi-Cycle Processor Design — Breaking instructions into stages, microprogrammed control"
-},
-{
-"week_number": 6,
-"topic": "Pipelining Fundamentals — 5-stage pipeline (IF, ID, EX, MEM, WB), throughput vs. latency"
-},
-{
-"week_number": 7,
-"topic": "Pipeline Hazards I — Structural hazards, data hazards, forwarding/bypassing, stalling"
-},
-{
-"week_number": 8,
-"topic": "Pipeline Hazards II — Control hazards, branch prediction (static and dynamic)"
-},
-{
-"week_number": 9,
-"topic": "Memory Hierarchy — Locality principles, cache basics, direct-mapped caches"
-},
-{
-"week_number": 10,
-"topic": "Advanced Caching — Set-associative caches, replacement policies, write policies"
-},
-{
-"week_number": 11,
-"topic": "Virtual Memory — Address translation, page tables, TLBs, page faults, memory protection"
-},
-{
-"week_number": 12,
-"topic": "Instruction-Level Parallelism — Superscalar processors, out-of-order execution, Tomasulo's algorithm"
-},
-{
-"week_number": 13,
-"topic": "Multiprocessors and Parallelism — SIMD, MIMD, cache coherence protocols (MESI)"
-},
-{
-"week_number": 14,
-"topic": "Advanced Topics — GPUs, VLIW architectures, power/energy considerations, course review"
-}
-]
-},
-{
-"id": 18,
-"code": "CMPE 321",
-"name": "Network Programming",
-"description": "This course looks at programming for network based systems. Subjects covered include network protocols, network traffic and security, distributed programming and emerging network technologies. The course includes practical network programming.",
-"keywords": "network programming, sockets, TCP, UDP, concurrency, HTTP, RPC, distributed systems, security",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Network Programming — OSI and TCP/IP models, client-server paradigm"
-},
-{
-"week_number": 2,
-"topic": "Socket Programming Basics — Socket API, socket types, socket system calls"
-},
-{
-"week_number": 3,
-"topic": "TCP Client Programming — Creating TCP clients, connecting to servers, sending/receiving data"
-},
-{
-"week_number": 4,
-"topic": "TCP Server Programming — Iterative servers, connection handling, server design patterns"
-},
-{
-"week_number": 5,
-"topic": "UDP Programming — Connectionless communication, UDP client/server, sendto/recvfrom"
-},
-{
-"week_number": 6,
-"topic": "Network Byte Order and Addressing — Byte ordering, address structures, hostname resolution (DNS)"
-},
-{
-"week_number": 7,
-"topic": "I/O Multiplexing — select(), poll(), non-blocking I/O, event-driven programming, epoll"
-},
-{
-"week_number": 8,
-"topic": "Concurrent Servers I — Multi-process servers using fork(), process management"
-},
-{
-"week_number": 9,
-"topic": "Concurrent Servers II — Multi-threaded servers using Pthreads, thread synchronization, thread pools"
-},
-{
-"week_number": 10,
-"topic": "Application Protocols — HTTP protocol basics, building HTTP clients and servers"
-},
-{
-"week_number": 11,
-"topic": "Remote Procedure Calls — RPC concepts, gRPC/Protocol Buffers"
-},
-{
-"week_number": 12,
-"topic": "Distributed Systems Fundamentals — Distributed architectures, CAP theorem introduction"
-},
-{
-"week_number": 13,
-"topic": "Network Security Basics — SSL/TLS overview, secure sockets, authentication"
-},
-{
-"week_number": 14,
-"topic": "Advanced Topics — Raw sockets, multicast, network debugging (tcpdump, Wireshark), project presentations"
-}
-]
-},
-{
-"id": 19,
-"code": "CMPE 352",
-"name": "Software Engineering",
-"description": "This course aims to provide students with an introductory understanding of general problems in developing large-scale computer systems that require teamwork, and also the basic principles in planning for tools to develop such systems in economically feasible ways.",
-"keywords": "software engineering, SDLC, agile, requirements, UML, architecture, testing, CI, project management",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Software Engineering and Software Development Lifecycle (SDLC)"
-},
-{
-"week_number": 2,
-"topic": "Software Process Models — Waterfall, iterative, spiral, V-Model"
-},
-{
-"week_number": 3,
-"topic": "Agile Methodologies — Scrum, Extreme Programming (XP)"
-},
-{
-"week_number": 4,
-"topic": "Requirements Engineering — Elicitation techniques"
-},
-{
-"week_number": 5,
-"topic": "Requirements Specification and Use Case Modeling"
-},
-{
-"week_number": 6,
-"topic": "System Modeling with UML — Class, sequence, state diagrams"
-},
-{
-"week_number": 7,
-"topic": "Software Architecture and Architectural Patterns"
-},
-{
-"week_number": 8,
-"topic": "Design Principles — SOLID, coupling, cohesion, and design patterns"
-},
-{
-"week_number": 9,
-"topic": "Version Control Systems (Git) and Configuration Management"
-},
-{
-"week_number": 10,
-"topic": "Software Testing Fundamentals — Unit, integration, system testing"
-},
-{
-"week_number": 11,
-"topic": "Test-Driven Development and Continuous Integration"
-},
-{
-"week_number": 12,
-"topic": "Code Reviews, Static Analysis, and Quality Assurance"
-},
-{
-"week_number": 13,
-"topic": "Project Management, Risk Management, and Estimation"
-},
-{
-"week_number": 14,
-"topic": "Software Evolution, Maintenance, and DevOps Practices"
-}
-]
-},
-{
-"id": 20,
-"code": "CMPE 443",
-"name": "Business Intelligence and Analytics",
-"description": "This course covers Business Intelligence as a concept of data collection and management to support wide variety of management tasks and Business Analytics as an extensive use of data analysis methods have gained great importance to drive fact-based decisions and actions.",
-"keywords": "business intelligence, data warehousing, OLAP, dashboards, KPIs, visualization, predictive analytics, governance",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Business Intelligence — BI concepts, decision support systems, BI lifecycle"
-},
-{
-"week_number": 2,
-"topic": "Data Warehousing Fundamentals — OLTP vs. OLAP, data warehouse architecture, data marts"
-},
-{
-"week_number": 3,
-"topic": "Dimensional Modeling — Facts, dimensions, measures, star schema, slowly changing dimensions"
-},
-{
-"week_number": 4,
-"topic": "ETL for Data Warehouses — Extraction strategies, transformation, loading techniques"
-},
-{
-"week_number": 5,
-"topic": "OLAP and Multidimensional Analysis — OLAP cubes, drill-down, roll-up, slice, dice"
-},
-{
-"week_number": 6,
-"topic": "SQL for Analytics — Advanced SQL, window functions, OLAP extensions"
-},
-{
-"week_number": 7,
-"topic": "Introduction to BI Tools — Overview of Tableau, Power BI, Looker"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Review"
-},
-{
-"week_number": 9,
-"topic": "Data Visualization Principles — Visual encoding, chart selection, dashboard design"
-},
-{
-"week_number": 10,
-"topic": "Building Interactive Dashboards — Filters, parameters, calculated fields"
-},
-{
-"week_number": 11,
-"topic": "Reporting and KPIs — Report design, key performance indicators, scorecards"
-},
-{
-"week_number": 12,
-"topic": "Advanced Analytics — Predictive analytics introduction, trend analysis, forecasting"
-},
-{
-"week_number": 13,
-"topic": "Data Quality and Governance in BI — Data quality dimensions, master data management"
-},
-{
-"week_number": 14,
-"topic": "BI Strategy and Final Project Presentations — Analytics maturity models"
-}
-]
-},
-{
-"id": 21,
-"code": "CMPE 461",
-"name": "Natural Language Processing",
-"description": "Natural Language Processing (NLP) which is sub-brunch of Artificial intelligence, aims to develop techniques for processing language and speech. The course aims to learn basic algorithms in this field and the main language levels: morphology, syntax, semantics, and pragmatics.",
-"keywords": "natural language processing, word embeddings, language models, parsing, RNNs, transformers, sentiment analysis, QA",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to NLP — Language and computation, regular expressions, text normalization"
-},
-{
-"week_number": 2,
-"topic": "Word Representations I — Word vectors and Word2Vec (Skip-gram, CBOW)"
-},
-{
-"week_number": 3,
-"topic": "Word Representations II — GloVe, word embeddings evaluation and applications"
-},
-{
-"week_number": 4,
-"topic": "Text Classification — Neural network foundations (feedforward networks for NLP)"
-},
-{
-"week_number": 5,
-"topic": "N-gram Language Models — Perplexity, smoothing techniques"
-},
-{
-"week_number": 6,
-"topic": "Part-of-Speech Tagging — HMMs, Viterbi algorithm, CRFs"
-},
-{
-"week_number": 7,
-"topic": "Syntactic Parsing I — Constituency parsing (CFGs, CKY algorithm)"
-},
-{
-"week_number": 8,
-"topic": "Syntactic Parsing II — Dependency parsing (transition-based and graph-based)"
-},
-{
-"week_number": 9,
-"topic": "Recurrent Neural Networks — RNNs, LSTMs, GRUs for sequence modeling"
-},
-{
-"week_number": 10,
-"topic": "Sequence-to-Sequence Models — Encoder-decoder architectures"
-},
-{
-"week_number": 11,
-"topic": "Attention Mechanisms and Transformers — Self-attention, multi-head attention"
-},
-{
-"week_number": 12,
-"topic": "Pre-trained Language Models — BERT, GPT, transfer learning for NLP"
-},
-{
-"week_number": 13,
-"topic": "Sentiment Analysis and Opinion Mining — Named entity recognition"
-},
-{
-"week_number": 14,
-"topic": "Question Answering — Coreference resolution, course review"
-}
-]
-},
-{
-"id": 22,
-"code": "CMPE 324",
-"name": "Database Systems",
-"description": "Almost all large data processing systems rely on a generalized database to store and retrieve data. Course contents include introduction to databases, entity relationship model, physical database design and access strategies, relational data model, SQL data manipulation language, normal forms and logical database design.",
-"keywords": "database systems, relational model, SQL, storage, indexing, query processing, transactions, recovery, distributed databases",
-"content": [
-{
-"week_number": 1,
-"topic": "Course Introduction and Relational Model — Database concepts, relational algebra"
-},
-{
-"week_number": 2,
-"topic": "Modern SQL — Aggregation, joins, nested queries, common table expressions"
-},
-{
-"week_number": 3,
-"topic": "Database Storage I — Disk-based architecture, file organization, page layout"
-},
-{
-"week_number": 4,
-"topic": "Database Storage II — Log-structured storage, storage models, data compression"
-},
-{
-"week_number": 5,
-"topic": "Memory Management — Buffer pool manager, replacement policies (LRU, Clock)"
-},
-{
-"week_number": 6,
-"topic": "Hash Tables and Indexing I — Static and dynamic hashing, extendible hashing"
-},
-{
-"week_number": 7,
-"topic": "Indexing II — B+ Trees — Structure, operations (insert, delete, search)"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam"
-},
-{
-"week_number": 9,
-"topic": "Query Processing I — Sorting algorithms, aggregation, join algorithms"
-},
-{
-"week_number": 10,
-"topic": "Query Processing II — Hash joins, query execution models"
-},
-{
-"week_number": 11,
-"topic": "Query Optimization — Cost-based optimization, selectivity estimation"
-},
-{
-"week_number": 12,
-"topic": "Transaction Processing — ACID properties, two-phase locking, deadlock handling"
-},
-{
-"week_number": 13,
-"topic": "Multi-Version Concurrency Control and Recovery — MVCC, ARIES recovery algorithm"
-},
-{
-"week_number": 14,
-"topic": "Distributed Databases — Distributed architectures, OLTP vs. OLAP, course wrap-up"
-}
-]
-},
-{
-"id": 23,
-"code": "CMPE 460",
-"name": "Artificial Intelligence",
-"description": "Artificial intelligence (AI) has become an important field of study with a wide spread of applications. In this module we will investigate questions about AI systems such as: how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal solutions.",
-"keywords": "artificial intelligence, search, CSPs, game playing, MDPs, reinforcement learning, probabilistic reasoning, logic, planning",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to AI — History, applications, and intelligent agents"
-},
-{
-"week_number": 2,
-"topic": "Search Algorithms I — Uninformed search (BFS, DFS, uniform cost search)"
-},
-{
-"week_number": 3,
-"topic": "Search Algorithms II — Informed search (A*, heuristics, admissibility)"
-},
-{
-"week_number": 4,
-"topic": "Constraint Satisfaction Problems — CSP formulation, backtracking, arc consistency"
-},
-{
-"week_number": 5,
-"topic": "Game Playing I — Adversarial search (minimax algorithm)"
-},
-{
-"week_number": 6,
-"topic": "Game Playing II — Alpha-beta pruning, evaluation functions, Monte Carlo tree search"
-},
-{
-"week_number": 7,
-"topic": "Markov Decision Processes — MDPs, Bellman equations, value iteration"
-},
-{
-"week_number": 8,
-"topic": "Reinforcement Learning — Policy iteration, Q-learning, exploration vs. exploitation"
-},
-{
-"week_number": 9,
-"topic": "Probabilistic Reasoning I — Bayesian networks (structure, conditional independence)"
-},
-{
-"week_number": 10,
-"topic": "Probabilistic Reasoning II — Inference in Bayesian networks (variable elimination)"
-},
-{
-"week_number": 11,
-"topic": "Hidden Markov Models — Forward algorithm, Viterbi algorithm"
-},
-{
-"week_number": 12,
-"topic": "Knowledge Representation and Propositional Logic"
-},
-{
-"week_number": 13,
-"topic": "First-Order Logic — Syntax, semantics, inference, unification"
-},
-{
-"week_number": 14,
-"topic": "Planning and Review — STRIPS, forward/backward planning, course summary"
-}
-]
-},
-{
-"id": 24,
-"code": "CMPE 493",
-"name": "Cloud Computing",
-"description": "Aim of this course are introduce the basics of the emerging cloud computing paradigms and implement basic cloud related applications. Students will familiarize with distributed system models and enabling technologies; virtual machines and virtualization of clusters, networks and data centers.",
-"keywords": "cloud computing, virtualization, containers, distributed systems, storage, networking, AWS, Azure, GCP, security",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Cloud Computing — Cloud definition, characteristics (NIST), cloud economics"
-},
-{
-"week_number": 2,
-"topic": "Cloud Service Models Deep Dive — IaaS, PaaS, SaaS, emerging models (BaaS, FaaS)"
-},
-{
-"week_number": 3,
-"topic": "Cloud Deployment Models — Public, private, hybrid, multi-cloud strategies"
-},
-{
-"week_number": 4,
-"topic": "Virtualization Technologies — Hypervisors (Type 1, Type 2), virtual machines, live migration"
-},
-{
-"week_number": 5,
-"topic": "Container Technologies — Containers vs. VMs, Docker internals, container runtimes"
-},
-{
-"week_number": 6,
-"topic": "Distributed Systems Fundamentals — CAP theorem, consistency models, Paxos, Raft"
-},
-{
-"week_number": 7,
-"topic": "Cloud Storage Systems — Object storage, block storage, distributed file systems, CDNs"
-},
-{
-"week_number": 8,
-"topic": "Midterm Exam and Cloud Networking — Software-defined networking, VPCs, load balancing"
-},
-{
-"week_number": 9,
-"topic": "Scalability and Elasticity — Auto-scaling, horizontal vs. vertical scaling, cost optimization"
-},
-{
-"week_number": 10,
-"topic": "AWS Core Services — EC2, S3, RDS, VPC, IAM, Lambda"
-},
-{
-"week_number": 11,
-"topic": "Microsoft Azure Core Services — Azure VMs, Blob Storage, Azure SQL, Virtual Networks"
-},
-{
-"week_number": 12,
-"topic": "Google Cloud Platform and Multi-Cloud — GCP Compute Engine, BigQuery, multi-cloud management"
-},
-{
-"week_number": 13,
-"topic": "Cloud Security — Identity and access management, encryption, shared responsibility model"
-},
-{
-"week_number": 14,
-"topic": "Emerging Trends — Edge computing, serverless architectures, cloud-native patterns, final project"
-}
-]
-},
-{
-"id": 25,
-"code": "CMPE 451",
-"name": "User Interface Design",
-"description": "This course aims to provide students with a general appreciation of the art of user interface design, particularly graphical user interfaces in computer and software systems with a target of Full Stack Development. It provides extensive case scenarios and examples of bad design.",
-"keywords": "HCI, user-centered design, user research, prototyping, visual design, usability, accessibility, mobile UI",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to HCI and User-Centered Design Principles"
-},
-{
-"week_number": 2,
-"topic": "Human Factors — Perception, cognition, and memory in interface design"
-},
-{
-"week_number": 3,
-"topic": "User Research Methods — Interviews, observation, contextual inquiry"
-},
-{
-"week_number": 4,
-"topic": "Needfinding, Task Analysis, and User Requirements"
-},
-{
-"week_number": 5,
-"topic": "Personas, Scenarios, and User Journey Mapping"
-},
-{
-"week_number": 6,
-"topic": "Conceptual Models and Interaction Design Frameworks"
-},
-{
-"week_number": 7,
-"topic": "Paper Prototyping and Low-Fidelity Wireframing"
-},
-{
-"week_number": 8,
-"topic": "Visual Design Principles — Layout, typography, color, hierarchy"
-},
-{
-"week_number": 9,
-"topic": "Digital Prototyping — Interactive mockups with Figma/Sketch"
-},
-{
-"week_number": 10,
-"topic": "Usability Evaluation — Heuristic evaluation and cognitive walkthrough"
-},
-{
-"week_number": 11,
-"topic": "User Testing Methods — Think-aloud protocols and A/B testing"
-},
-{
-"week_number": 12,
-"topic": "Accessibility and Inclusive Design — WCAG guidelines"
-},
-{
-"week_number": 13,
-"topic": "Mobile and Responsive Interface Design"
-},
-{
-"week_number": 14,
-"topic": "Emerging Interfaces — Voice UI, gesture, future of HCI"
-}
-]
-},
-{
-"id": 26,
-"code": "CMPE 482",
-"name": "Cryptography",
-"description": "This course is on the applications of real world cryptography. It covers fundamental aspects of secure communication and modern implications of privacy by introducing basic and advanced methods of cryptography. Necessary theoretical concepts from number theory, finite fields, elliptic curves are covered.",
-"keywords": "cryptography, symmetric, asymmetric, AES, MAC, hash functions, Diffie-Hellman, RSA, digital signatures, PKI, TLS, post-quantum",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Cryptography and Historical Ciphers"
-},
-{
-"week_number": 2,
-"topic": "Perfect Secrecy — One-time pad, stream ciphers"
-},
-{
-"week_number": 3,
-"topic": "Block Ciphers and the Advanced Encryption Standard (AES)"
-},
-{
-"week_number": 4,
-"topic": "Modes of Operation — ECB, CBC, CTR, semantic security"
-},
-{
-"week_number": 5,
-"topic": "Message Authentication Codes (MAC) and HMAC"
-},
-{
-"week_number": 6,
-"topic": "Cryptographic Hash Functions — SHA family, Merkle-Damgård construction"
-},
-{
-"week_number": 7,
-"topic": "Authenticated Encryption and AEAD Modes"
-},
-{
-"week_number": 8,
-"topic": "Number Theory Foundations for Public-Key Cryptography"
-},
-{
-"week_number": 9,
-"topic": "Diffie-Hellman Key Exchange and Discrete Logarithm Problem"
-},
-{
-"week_number": 10,
-"topic": "RSA Encryption and the Factoring Assumption"
-},
-{
-"week_number": 11,
-"topic": "Digital Signatures — RSA, DSA, ECDSA"
-},
-{
-"week_number": 12,
-"topic": "Public Key Infrastructure and Certificate Management"
-},
-{
-"week_number": 13,
-"topic": "Cryptographic Protocols and TLS/SSL"
-},
-{
-"week_number": 14,
-"topic": "Post-Quantum Cryptography and Zero-Knowledge Proofs"
-}
-]
-},
-{
-"id": 27,
-"code": "CMPE 483",
-"name": "Computer Security and Digital Forensics",
-"description": "This course introduces students to the fundamentals of computer system security and digital forensics. Emphasis is placed on identifying threats to, and vulnerabilities of, computer systems and how to minimize them. Students will learn how hackers identify victims and how attacks are executed.",
-"keywords": "computer security, vulnerabilities, exploits, malware, network security, web security, digital forensics, incident response",
-"content": [
-{
-"week_number": 1,
-"topic": "Introduction to Computer Security — Threat modeling, security principles"
-},
-{
-"week_number": 2,
-"topic": "Vulnerabilities and Attack Surfaces — Buffer overflows and memory safety"
-},
-{
-"week_number": 3,
-"topic": "Control-Flow Attacks — Return-oriented programming and defenses"
-},
-{
-"week_number": 4,
-"topic": "Malware Types — Analysis techniques and defense mechanisms"
-},
-{
-"week_number": 5,
-"topic": "Network Security Fundamentals and Protocol Vulnerabilities"
-},
-{
-"week_number": 6,
-"topic": "Intrusion Detection Systems and Network Monitoring"
-},
-{
-"week_number": 7,
-"topic": "Web Security — SQL injection, XSS, CSRF, secure coding"
-},
-{
-"week_number": 8,
-"topic": "Authentication, Authorization, and Access Control Models"
-},
-{
-"week_number": 9,
-"topic": "Introduction to Digital Forensics — Principles and legal framework"
-},
-{
-"week_number": 10,
-"topic": "Evidence Collection — Preservation and chain of custody"
-},
-{
-"week_number": 11,
-"topic": "Disk Forensics — File systems, data recovery, analysis tools"
-},
-{
-"week_number": 12,
-"topic": "Memory Forensics and Live System Analysis"
-},
-{
-"week_number": 13,
-"topic": "Incident Response — Detection, containment, eradication, recovery"
-},
-{
-"week_number": 14,
-"topic": "Forensic Reporting — Expert testimony and case studies"
-}
-]
-}
-]
+  "courses": [
+    {
+      "id": 1,
+      "code": "EEEN 101",
+      "name": "Introduction to Electrical & Electronics Engineering",
+      "description": "The purpose of this course is to provide a solid introduction to the freshmen of the fundamental principles of Electrical-Electronic Engineering. It lays the foundations of topics and techniques which will be covered in the four years of their Electrical-Electronic Engineering education.",
+      "keywords": "circuit analysis, Ohm's law, Kirchhoff's laws, capacitors, inductors, AC circuits, phasors, power, digital systems, binary, logic gates, signals, engineering ethics",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Electrical Engineering - History, career paths, engineering design process"},
+        {"week_number": 2, "topic": "Fundamental Quantities - Charge, current, voltage, power, and energy"},
+        {"week_number": 3, "topic": "Circuit Elements - Resistors, voltage and current sources, switches"},
+        {"week_number": 4, "topic": "Ohm's Law and Kirchhoff's Laws - Series and parallel circuits"},
+        {"week_number": 5, "topic": "Circuit Analysis Techniques - Node voltage and mesh current methods"},
+        {"week_number": 6, "topic": "Thevenin and Norton Equivalents - Source transformation"},
+        {"week_number": 7, "topic": "Capacitors and Inductors - Energy storage elements, RC and RL circuits"},
+        {"week_number": 8, "topic": "First-Order Circuits - Natural and step response"},
+        {"week_number": 9, "topic": "Second-Order Circuits - RLC circuits, damping"},
+        {"week_number": 10, "topic": "AC Circuit Analysis - Phasors and impedance"},
+        {"week_number": 11, "topic": "AC Power - Average power, RMS values, power factor"},
+        {"week_number": 12, "topic": "Introduction to Digital Systems - Binary numbers, logic gates"},
+        {"week_number": 13, "topic": "Signals and Systems Overview - Time and frequency domain"},
+        {"week_number": 14, "topic": "Engineering Ethics and Professionalism - Review and future courses"}
+      ]
+    },
+    {
+      "id": 2,
+      "code": "EEEN 201",
+      "name": "Analog Electronics I",
+      "description": "This course provides the students with an exposure to essential elements of analog electronics. The course concentrates on the introductory material associated with analog electronics and introduces students to fundamental electronic devices such as diodes, transistors and operational amplifiers. It develops on the notion of DC and small signal behavior. Students are shown how these devices are used in amplifier and switching circuits.",
+      "keywords": "semiconductors, diodes, BJT, MOSFET, amplifiers, biasing, small signal analysis, frequency response, operational amplifiers, transistor models",
+      "content": [
+        {"week_number": 1, "topic": "Review of Circuit Analysis - Voltage dividers, current dividers, Thevenin equivalent"},
+        {"week_number": 2, "topic": "Semiconductor Physics - PN junction, energy bands, carrier drift and diffusion"},
+        {"week_number": 3, "topic": "Diode Characteristics - I-V characteristics, diode models, temperature effects"},
+        {"week_number": 4, "topic": "Diode Applications - Rectifier circuits, clipping and clamping circuits"},
+        {"week_number": 5, "topic": "Bipolar Junction Transistors (BJT) - Structure, operation modes, I-V characteristics"},
+        {"week_number": 6, "topic": "BJT Biasing - DC analysis, bias point selection, bias stability"},
+        {"week_number": 7, "topic": "Small Signal Analysis - Hybrid-pi model, voltage and current gain"},
+        {"week_number": 8, "topic": "BJT Amplifier Configurations - Common emitter, common base, common collector"},
+        {"week_number": 9, "topic": "MOSFET Fundamentals - Structure, operation, enhancement and depletion modes"},
+        {"week_number": 10, "topic": "MOSFET Biasing and Small Signal Analysis - DC operating point, small signal model"},
+        {"week_number": 11, "topic": "MOSFET Amplifiers - Common source, common gate, common drain configurations"},
+        {"week_number": 12, "topic": "Frequency Response - Bode plots, Miller effect, high-frequency models"},
+        {"week_number": 13, "topic": "Multi-Stage Amplifiers - Cascading, interstage coupling, overall gain"},
+        {"week_number": 14, "topic": "Introduction to Operational Amplifiers - Ideal op-amp, inverting and non-inverting amplifiers"}
+      ]
+    },
+    {
+      "id": 3,
+      "code": "EEEN 202",
+      "name": "Analog Electronics II",
+      "description": "With this second course in Electronics students are shown how the electronic components and devices of the first course are further used in filter, amplifier and wave shaping circuits. Advanced topics in analog circuit design including differential amplifiers, feedback, and active filters.",
+      "keywords": "active filters, differential amplifiers, current mirrors, feedback, oscillators, waveform generators, voltage regulators, ADC, DAC, analog IC design",
+      "content": [
+        {"week_number": 1, "topic": "Operational Amplifier Applications - Summing amplifier, difference amplifier, instrumentation amplifier"},
+        {"week_number": 2, "topic": "Active Filters I - First-order low-pass and high-pass filters"},
+        {"week_number": 3, "topic": "Active Filters II - Second-order filters, Butterworth and Chebyshev responses"},
+        {"week_number": 4, "topic": "Differential Amplifiers - Differential pairs, common-mode rejection ratio"},
+        {"week_number": 5, "topic": "Current Mirrors and Active Loads - Basic and cascode current mirrors"},
+        {"week_number": 6, "topic": "Output Stages - Class A, B, and AB amplifiers, push-pull configuration"},
+        {"week_number": 7, "topic": "Feedback Amplifiers - Negative feedback, types of feedback topologies"},
+        {"week_number": 8, "topic": "Stability and Compensation - Phase margin, gain margin, frequency compensation"},
+        {"week_number": 9, "topic": "Oscillators - Barkhausen criterion, Wien bridge, phase-shift oscillators"},
+        {"week_number": 10, "topic": "Waveform Generators - Multivibrators, 555 timer, function generators"},
+        {"week_number": 11, "topic": "Voltage Regulators - Linear regulators, switching regulators, voltage references"},
+        {"week_number": 12, "topic": "Data Converters - Digital-to-analog converters (DAC), analog-to-digital converters (ADC)"},
+        {"week_number": 13, "topic": "Analog Integrated Circuits - IC design considerations, analog layout basics"},
+        {"week_number": 14, "topic": "Advanced Topics and Review - Mixed-signal circuits, noise analysis"}
+      ]
+    },
+    {
+      "id": 4,
+      "code": "EEEN 203",
+      "name": "Circuits and Systems I",
+      "description": "This course is addressed to the engineering sophomores who have successfully completed Electrical & Electronics Circuits I. The course provides the students with an exposure to essential principles and practices of fundamental electrical and electronic circuits.",
+      "keywords": "AC power, three-phase circuits, transformers, frequency response, two-port networks, Laplace transform, transfer functions, Fourier series, Fourier transform",
+      "content": [
+        {"week_number": 1, "topic": "Review of Circuit Analysis - Mesh and nodal analysis, superposition"},
+        {"week_number": 2, "topic": "Network Theorems - Thevenin, Norton, maximum power transfer"},
+        {"week_number": 3, "topic": "Sinusoidal Steady-State Analysis - Phasors, impedance, admittance"},
+        {"week_number": 4, "topic": "AC Power Analysis - Instantaneous, average, and reactive power"},
+        {"week_number": 5, "topic": "Three-Phase Circuits - Wye and delta connections, balanced systems"},
+        {"week_number": 6, "topic": "Magnetically Coupled Circuits - Mutual inductance, transformers, ideal transformers"},
+        {"week_number": 7, "topic": "Frequency Response - Transfer functions, resonance, bandwidth"},
+        {"week_number": 8, "topic": "Two-Port Networks - Parameters (Z, Y, h, ABCD), interconnections"},
+        {"week_number": 9, "topic": "Laplace Transform I - Definition, properties, inverse transform"},
+        {"week_number": 10, "topic": "Laplace Transform II - Circuit analysis using Laplace transform"},
+        {"week_number": 11, "topic": "Transfer Functions - Poles and zeros, frequency response from transfer function"},
+        {"week_number": 12, "topic": "Fourier Series - Periodic signals, trigonometric and exponential Fourier series"},
+        {"week_number": 13, "topic": "Fourier Transform - Continuous-time Fourier transform, properties"},
+        {"week_number": 14, "topic": "Applications and Review - Filtering, spectral analysis"}
+      ]
+    },
+    {
+      "id": 5,
+      "code": "EEEN 204",
+      "name": "Circuits and Systems II",
+      "description": "Advanced circuit analysis and systems theory. This course addresses the properties of continuous and discrete-time signals and systems, the analysis of signals and systems in the time and frequency domains, convolution, Fourier Series, and Fourier Transform.",
+      "keywords": "LTI systems, convolution, DTFT, z-transform, DFT, FFT, digital filters, sampling theorem, state-space analysis, discrete-time signals",
+      "content": [
+        {"week_number": 1, "topic": "Signals and Systems Overview - Classification of signals, system properties"},
+        {"week_number": 2, "topic": "Linear Time-Invariant Systems - Impulse response, convolution integral"},
+        {"week_number": 3, "topic": "Convolution - Graphical convolution, properties of convolution"},
+        {"week_number": 4, "topic": "Fourier Series Representation - Convergence, Parseval's theorem"},
+        {"week_number": 5, "topic": "Fourier Transform Properties - Linearity, time-shifting, frequency-shifting"},
+        {"week_number": 6, "topic": "Filtering and Modulation - Ideal filters, amplitude modulation"},
+        {"week_number": 7, "topic": "Sampling Theorem - Nyquist rate, aliasing, reconstruction"},
+        {"week_number": 8, "topic": "Discrete-Time Signals - Sequences, discrete-time systems"},
+        {"week_number": 9, "topic": "Discrete-Time Fourier Transform - DTFT properties, frequency response"},
+        {"week_number": 10, "topic": "Z-Transform - Definition, properties, region of convergence"},
+        {"week_number": 11, "topic": "Z-Transform Applications - Transfer functions, system analysis"},
+        {"week_number": 12, "topic": "Discrete Fourier Transform - DFT, FFT algorithm"},
+        {"week_number": 13, "topic": "Digital Filter Design - FIR and IIR filters"},
+        {"week_number": 14, "topic": "State-Space Analysis - State variables, state equations"}
+      ]
+    },
+    {
+      "id": 6,
+      "code": "EEEN 214",
+      "name": "Digital Logic Design",
+      "description": "Introduction to digital logic and computer hardware design. Topics include number systems, Boolean algebra, combinational and sequential logic circuits, and basic computer architecture.",
+      "keywords": "Boolean algebra, logic gates, combinational logic, Karnaugh maps, sequential logic, flip-flops, counters, finite state machines, VHDL, Verilog",
+      "content": [
+        {"week_number": 1, "topic": "Number Systems - Binary, octal, hexadecimal, conversions"},
+        {"week_number": 2, "topic": "Binary Arithmetic - Addition, subtraction, 2's complement"},
+        {"week_number": 3, "topic": "Boolean Algebra - Laws, theorems, DeMorgan's theorem"},
+        {"week_number": 4, "topic": "Logic Gates - AND, OR, NOT, NAND, NOR, XOR gates"},
+        {"week_number": 5, "topic": "Combinational Logic I - Sum of products, product of sums"},
+        {"week_number": 6, "topic": "Karnaugh Maps - Simplification techniques, don't care conditions"},
+        {"week_number": 7, "topic": "Combinational Logic II - Multiplexers, demultiplexers, decoders, encoders"},
+        {"week_number": 8, "topic": "Arithmetic Circuits - Half adder, full adder, parallel adder, comparators"},
+        {"week_number": 9, "topic": "Sequential Logic Fundamentals - Latches and flip-flops"},
+        {"week_number": 10, "topic": "Registers and Counters - Shift registers, synchronous and asynchronous counters"},
+        {"week_number": 11, "topic": "Finite State Machines - Moore and Mealy machines, state diagrams"},
+        {"week_number": 12, "topic": "Memory Devices - RAM, ROM, programmable logic devices"},
+        {"week_number": 13, "topic": "Hardware Description Languages - Introduction to VHDL or Verilog"},
+        {"week_number": 14, "topic": "Digital System Design - Design methodology, testing"}
+      ]
+    },
+    {
+      "id": 7,
+      "code": "EEEN 301",
+      "name": "Electromagnetic Fields and Waves",
+      "description": "Introduction to electromagnetic theory including electrostatics, magnetostatics, Maxwell's equations, and electromagnetic wave propagation. Applications to transmission lines and antennas.",
+      "keywords": "Maxwell's equations, electromagnetic waves, electrostatics, magnetostatics, Gauss's law, Faraday's law, wave propagation, transmission lines, Smith chart, antennas",
+      "content": [
+        {"week_number": 1, "topic": "Vector Analysis - Coordinate systems, gradient, divergence, curl"},
+        {"week_number": 2, "topic": "Electrostatics I - Coulomb's law, electric field intensity"},
+        {"week_number": 3, "topic": "Electrostatics II - Gauss's law, electric potential"},
+        {"week_number": 4, "topic": "Conductors and Dielectrics - Boundary conditions, capacitance"},
+        {"week_number": 5, "topic": "Poisson's and Laplace's Equations - Solution methods"},
+        {"week_number": 6, "topic": "Magnetostatics I - Biot-Savart law, Ampere's law"},
+        {"week_number": 7, "topic": "Magnetostatics II - Magnetic flux density, magnetic materials"},
+        {"week_number": 8, "topic": "Time-Varying Fields - Faraday's law, induced EMF, transformers"},
+        {"week_number": 9, "topic": "Maxwell's Equations - Integral and differential forms, displacement current"},
+        {"week_number": 10, "topic": "Electromagnetic Wave Propagation - Wave equation, plane waves"},
+        {"week_number": 11, "topic": "Wave Reflection and Transmission - Boundary conditions, standing waves"},
+        {"week_number": 12, "topic": "Transmission Lines - Distributed parameters, characteristic impedance"},
+        {"week_number": 13, "topic": "Smith Chart and Impedance Matching - Reflection coefficient, VSWR"},
+        {"week_number": 14, "topic": "Antennas and Radiation - Hertzian dipole, antenna parameters"}
+      ]
+    },
+    {
+      "id": 8,
+      "code": "EEEN 321",
+      "name": "Control Systems",
+      "description": "Analysis of linear control systems by differential equations and transfer function methods using Laplace transforms. Stability of closed loop systems. Routh-Hurwitz criterion, root-locus diagrams. System analysis in frequency domain. Bode and Nyquist plots. Nyquist stability criterion. Introduction to Design and Optimization. Matlab applications.",
+      "keywords": "feedback control, transfer functions, stability, Routh-Hurwitz, root locus, Bode plots, Nyquist plots, PID controller, state-space, MATLAB",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Control Systems - Open-loop vs closed-loop control"},
+        {"week_number": 2, "topic": "Mathematical Models - Differential equations, transfer functions"},
+        {"week_number": 3, "topic": "Block Diagrams and Signal Flow Graphs - Reduction techniques, Mason's rule"},
+        {"week_number": 4, "topic": "Time Response Analysis - First and second-order systems, step response"},
+        {"week_number": 5, "topic": "Steady-State Errors - Error constants, system type"},
+        {"week_number": 6, "topic": "Stability Analysis - Routh-Hurwitz criterion"},
+        {"week_number": 7, "topic": "Root Locus Method I - Construction rules, breakaway points"},
+        {"week_number": 8, "topic": "Root Locus Method II - Design using root locus"},
+        {"week_number": 9, "topic": "Frequency Response I - Bode plots, gain and phase margins"},
+        {"week_number": 10, "topic": "Frequency Response II - Nyquist plots, Nyquist stability criterion"},
+        {"week_number": 11, "topic": "Controller Design I - PID controllers, tuning methods"},
+        {"week_number": 12, "topic": "Controller Design II - Lead and lag compensators"},
+        {"week_number": 13, "topic": "State-Space Methods - State equations, controllability, observability"},
+        {"week_number": 14, "topic": "Digital Control Systems - Discrete-time systems, z-domain analysis"}
+      ]
+    },
+    {
+      "id": 9,
+      "code": "EEEN 331",
+      "name": "Communication Systems",
+      "description": "In this course, the basic concepts of communications engineering, the modulation techniques used in communication systems, and their performance analyses are introduced. Topics include analog and digital modulation, noise analysis, and information theory.",
+      "keywords": "modulation, AM, FM, digital modulation, ASK, FSK, PSK, QAM, noise, SNR, BER, channel capacity, Shannon theorem, error correction",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Communication Systems - Information transmission, channel capacity"},
+        {"week_number": 2, "topic": "Signals and Spectra - Fourier analysis, power spectral density"},
+        {"week_number": 3, "topic": "Amplitude Modulation - AM, DSB-SC, SSB modulation and demodulation"},
+        {"week_number": 4, "topic": "Frequency Modulation - FM and PM, Carson's rule, bandwidth"},
+        {"week_number": 5, "topic": "Sampling and Quantization - Nyquist theorem, pulse code modulation"},
+        {"week_number": 6, "topic": "Baseband Digital Transmission - Line coding, ISI, eye diagrams"},
+        {"week_number": 7, "topic": "Digital Modulation I - ASK, FSK, PSK modulation schemes"},
+        {"week_number": 8, "topic": "Digital Modulation II - QAM, constellation diagrams"},
+        {"week_number": 9, "topic": "Noise in Communication Systems - White noise, noise figure"},
+        {"week_number": 10, "topic": "Performance Analysis - SNR, bit error rate, probability of error"},
+        {"week_number": 11, "topic": "Information Theory - Entropy, channel capacity, Shannon's theorem"},
+        {"week_number": 12, "topic": "Error Control Coding - Block codes, Hamming codes"},
+        {"week_number": 13, "topic": "Multiple Access Techniques - FDMA, TDMA, CDMA"},
+        {"week_number": 14, "topic": "Modern Communication Systems - Wireless, cellular, spread spectrum"}
+      ]
+    },
+    {
+      "id": 10,
+      "code": "EEEN 341",
+      "name": "Power Systems",
+      "description": "Introduction to electric power generation, transmission, and distribution. Topics include power system components, three-phase circuits, transformers, generators, motors, and power flow analysis.",
+      "keywords": "three-phase systems, transformers, synchronous generators, induction motors, transmission lines, power flow, fault analysis, protection, power system stability",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Power Systems - Generation, transmission, distribution"},
+        {"week_number": 2, "topic": "Three-Phase Systems Review - Balanced systems, per-phase analysis"},
+        {"week_number": 3, "topic": "Transformers I - Ideal transformers, voltage regulation"},
+        {"week_number": 4, "topic": "Transformers II - Equivalent circuits, three-phase transformers"},
+        {"week_number": 5, "topic": "Synchronous Generators I - Construction, EMF generation, armature reaction"},
+        {"week_number": 6, "topic": "Synchronous Generators II - Equivalent circuit, voltage regulation, parallel operation"},
+        {"week_number": 7, "topic": "Synchronous Motors - Equivalent circuit, torque, V-curves"},
+        {"week_number": 8, "topic": "Induction Motors I - Rotating magnetic field, slip, equivalent circuit"},
+        {"week_number": 9, "topic": "Induction Motors II - Torque-slip characteristics, starting methods"},
+        {"week_number": 10, "topic": "Transmission Lines I - Line parameters, resistance, inductance, capacitance"},
+        {"week_number": 11, "topic": "Transmission Lines II - Line models, ABCD parameters"},
+        {"week_number": 12, "topic": "Power Flow Analysis - Bus admittance matrix, Gauss-Seidel method"},
+        {"week_number": 13, "topic": "Fault Analysis - Symmetrical faults, per-unit system"},
+        {"week_number": 14, "topic": "Protection and Stability - Relaying, transient stability"}
+      ]
+    },
+    {
+      "id": 11,
+      "code": "EEEN 351",
+      "name": "Microprocessors and Microcontrollers",
+      "description": "Introduction to microprocessor architecture, assembly language programming, and microcontroller applications. Topics include CPU architecture, instruction sets, memory interfacing, and I/O programming.",
+      "keywords": "microprocessor architecture, assembly language, instruction set, memory interfacing, I/O, interrupts, timers, serial communication, ADC, embedded systems",
+      "content": [
+        {"week_number": 1, "topic": "Microprocessor Fundamentals - Architecture, fetch-decode-execute cycle"},
+        {"week_number": 2, "topic": "Number Systems and Data Representation - Binary arithmetic, ASCII, floating point"},
+        {"week_number": 3, "topic": "Assembly Language Programming I - Instruction set, addressing modes"},
+        {"week_number": 4, "topic": "Assembly Language Programming II - Subroutines, stack operations"},
+        {"week_number": 5, "topic": "Memory Organization - RAM, ROM, memory mapping, address decoding"},
+        {"week_number": 6, "topic": "Memory Interfacing - Bus timing, wait states, memory expansion"},
+        {"week_number": 7, "topic": "I/O Interfacing - Parallel and serial I/O, polling, interrupts"},
+        {"week_number": 8, "topic": "Interrupt Handling - Interrupt service routines, priority, vectored interrupts"},
+        {"week_number": 9, "topic": "Timers and Counters - Timer programming, pulse width modulation"},
+        {"week_number": 10, "topic": "Serial Communication - UART, SPI, I2C protocols"},
+        {"week_number": 11, "topic": "Analog-to-Digital Conversion - ADC types, interfacing, sampling"},
+        {"week_number": 12, "topic": "Microcontroller Applications I - Sensor interfacing, data acquisition"},
+        {"week_number": 13, "topic": "Microcontroller Applications II - Motor control, LCD interfacing"},
+        {"week_number": 14, "topic": "Embedded Systems Overview - Real-time systems, embedded C programming"}
+      ]
+    },
+    {
+      "id": 12,
+      "code": "EEEN 361",
+      "name": "Digital Signal Processing",
+      "description": "Fundamentals of digital signal processing including discrete-time signals and systems, z-transforms, DFT/FFT, digital filter design, and DSP applications.",
+      "keywords": "discrete-time signals, z-transform, DFT, FFT, FIR filters, IIR filters, digital filter design, multirate processing, adaptive filters, DSP applications",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to DSP - Applications, sampling, quantization effects"},
+        {"week_number": 2, "topic": "Discrete-Time Signals and Systems - Classification, system properties"},
+        {"week_number": 3, "topic": "Linear Time-Invariant Systems - Convolution, difference equations"},
+        {"week_number": 4, "topic": "Z-Transform - Properties, inverse z-transform, transfer functions"},
+        {"week_number": 5, "topic": "Frequency Analysis - DTFT, frequency response"},
+        {"week_number": 6, "topic": "Discrete Fourier Transform - DFT definition, properties, circular convolution"},
+        {"week_number": 7, "topic": "Fast Fourier Transform - FFT algorithms, decimation-in-time, decimation-in-frequency"},
+        {"week_number": 8, "topic": "FIR Filter Design I - Linear phase, window method"},
+        {"week_number": 9, "topic": "FIR Filter Design II - Frequency sampling, optimal design"},
+        {"week_number": 10, "topic": "IIR Filter Design I - Analog filter approximations (Butterworth, Chebyshev)"},
+        {"week_number": 11, "topic": "IIR Filter Design II - Bilinear transformation, impulse invariance"},
+        {"week_number": 12, "topic": "Multirate Signal Processing - Decimation, interpolation, polyphase filters"},
+        {"week_number": 13, "topic": "Adaptive Filters - LMS algorithm, applications"},
+        {"week_number": 14, "topic": "DSP Applications - Speech processing, audio effects, image processing"}
+      ]
+    },
+    {
+      "id": 13,
+      "code": "EEEN 371",
+      "name": "VLSI Design",
+      "description": "Introduction to Very Large Scale Integration (VLSI) design. Topics include MOS transistor theory, CMOS logic gates, design rules, layout, and simulation using CAD tools.",
+      "keywords": "VLSI, CMOS, MOS transistor, logic gates, layout, design rules, memory design, adders, multipliers, low power design, testability",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to VLSI - Moore's law, design abstraction levels, fabrication overview"},
+        {"week_number": 2, "topic": "MOS Transistor Theory - NMOS and PMOS operation, I-V characteristics"},
+        {"week_number": 3, "topic": "CMOS Inverter - Static characteristics, switching characteristics, power dissipation"},
+        {"week_number": 4, "topic": "Combinational Logic Design - Static CMOS gates, complex gates"},
+        {"week_number": 5, "topic": "Sequential Logic Design - Latches and flip-flops, timing analysis"},
+        {"week_number": 6, "topic": "Design Rules and Layout - Lambda rules, stick diagrams, layout techniques"},
+        {"week_number": 7, "topic": "Interconnect and Parasitic Effects - RC delay, capacitance models"},
+        {"week_number": 8, "topic": "Dynamic Logic - Precharge-evaluate logic, domino logic"},
+        {"week_number": 9, "topic": "Memory Design - SRAM cell design, sense amplifiers"},
+        {"week_number": 10, "topic": "Adder Architectures - Ripple carry, carry lookahead, carry select adders"},
+        {"week_number": 11, "topic": "Multiplier Design - Array multipliers, Wallace tree"},
+        {"week_number": 12, "topic": "Clock Distribution - Clock skew, H-tree structures"},
+        {"week_number": 13, "topic": "Low Power Design - Power estimation, power reduction techniques"},
+        {"week_number": 14, "topic": "Design for Testability - Scan chains, BIST, fault models"}
+      ]
+    },
+    {
+      "id": 14,
+      "code": "EEEN 380",
+      "name": "Renewable Energy Systems",
+      "description": "Introduction to renewable energy technologies including solar, wind, hydroelectric, and other sustainable energy systems. Energy conversion, system design, and grid integration.",
+      "keywords": "solar energy, photovoltaics, wind energy, hydroelectric, biomass, geothermal, energy storage, power electronics, grid integration, sustainability",
+      "content": [
+        {"week_number": 1, "topic": "Energy Overview - Global energy consumption, environmental impact, sustainability"},
+        {"week_number": 2, "topic": "Solar Radiation - Solar geometry, irradiance, solar angles"},
+        {"week_number": 3, "topic": "Photovoltaic Systems I - Solar cell physics, I-V characteristics, efficiency"},
+        {"week_number": 4, "topic": "Photovoltaic Systems II - PV array design, MPPT, inverters"},
+        {"week_number": 5, "topic": "Solar Thermal Systems - Collectors, concentrating systems, thermal storage"},
+        {"week_number": 6, "topic": "Wind Energy I - Wind resources, wind turbine types, power curves"},
+        {"week_number": 7, "topic": "Wind Energy II - Wind turbine generators, power electronics, control"},
+        {"week_number": 8, "topic": "Hydroelectric Power - Types of hydro plants, turbines, power calculation"},
+        {"week_number": 9, "topic": "Biomass and Biofuels - Biomass conversion, biogas, biodiesel"},
+        {"week_number": 10, "topic": "Geothermal Energy - Heat pumps, geothermal power plants"},
+        {"week_number": 11, "topic": "Energy Storage - Batteries, flywheels, pumped hydro, compressed air"},
+        {"week_number": 12, "topic": "Power Electronics for Renewable Energy - DC-DC converters, inverters, grid codes"},
+        {"week_number": 13, "topic": "Grid Integration - Distributed generation, microgrid, smart grid"},
+        {"week_number": 14, "topic": "Economics and Policy - Cost analysis, subsidies, carbon credits"}
+      ]
+    },
+    {
+      "id": 15,
+      "code": "EEEN 401",
+      "name": "Advanced Electronics",
+      "description": "Advanced topics in analog and digital electronics including integrated circuit design, high-frequency circuits, noise analysis, and modern semiconductor devices.",
+      "keywords": "high-frequency amplifiers, noise analysis, oscillators, PLL, mixers, power amplifiers, RF circuits, data converters, switched-capacitor circuits, S-parameters",
+      "content": [
+        {"week_number": 1, "topic": "Review of Semiconductor Devices - Diodes, BJT, MOSFET characteristics"},
+        {"week_number": 2, "topic": "Advanced Amplifier Topologies - Cascode amplifiers, differential amplifiers"},
+        {"week_number": 3, "topic": "High-Frequency Amplifiers - High-frequency transistor models, neutralization"},
+        {"week_number": 4, "topic": "Noise in Electronic Circuits - Noise sources, noise figure, low-noise design"},
+        {"week_number": 5, "topic": "Oscillator Design - Phase noise, crystal oscillators, VCOs"},
+        {"week_number": 6, "topic": "Phase-Locked Loops - PLL architecture, loop filters, applications"},
+        {"week_number": 7, "topic": "Mixers and Modulators - Frequency conversion, Gilbert cell"},
+        {"week_number": 8, "topic": "Power Amplifiers - Classes of operation, efficiency, linearity"},
+        {"week_number": 9, "topic": "Analog Integrated Circuit Design - Current mirrors, bandgap references"},
+        {"week_number": 10, "topic": "Advanced Data Converters - Pipeline ADC, delta-sigma converters"},
+        {"week_number": 11, "topic": "Switched-Capacitor Circuits - Sample-and-hold, SC filters"},
+        {"week_number": 12, "topic": "RF Circuit Design - Matching networks, S-parameters"},
+        {"week_number": 13, "topic": "Advanced Semiconductor Devices - HBT, HEMT, SiGe devices"},
+        {"week_number": 14, "topic": "Circuit Simulation and Layout - SPICE simulation, layout considerations"}
+      ]
+    },
+    {
+      "id": 16,
+      "code": "EEEN 411",
+      "name": "Wireless Communications",
+      "description": "Principles of wireless communication systems including propagation, modulation, multiple access, cellular systems, and modern wireless standards.",
+      "keywords": "wireless propagation, fading, MIMO, OFDM, cellular systems, GSM, LTE, 5G, WiFi, Bluetooth, satellite communications, link budget",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Wireless Communications - History, frequency bands, applications"},
+        {"week_number": 2, "topic": "Wireless Channel I - Path loss, shadowing, multipath fading"},
+        {"week_number": 3, "topic": "Wireless Channel II - Fading statistics, Rayleigh and Rician fading"},
+        {"week_number": 4, "topic": "Digital Modulation for Wireless - BPSK, QPSK, QAM, OFDM"},
+        {"week_number": 5, "topic": "Diversity Techniques - Time, frequency, and space diversity, MIMO"},
+        {"week_number": 6, "topic": "Multiple Access Techniques - FDMA, TDMA, CDMA, OFDMA"},
+        {"week_number": 7, "topic": "Spread Spectrum - Direct sequence, frequency hopping, PN sequences"},
+        {"week_number": 8, "topic": "Cellular Systems I - Cellular concept, frequency reuse, handoff"},
+        {"week_number": 9, "topic": "Cellular Systems II - GSM, CDMA, LTE architecture"},
+        {"week_number": 10, "topic": "5G and Beyond - Massive MIMO, mmWave, network slicing"},
+        {"week_number": 11, "topic": "Wireless LANs - IEEE 802.11 standards, WiFi"},
+        {"week_number": 12, "topic": "Bluetooth and IoT - Bluetooth architecture, Zigbee, LoRa"},
+        {"week_number": 13, "topic": "Satellite Communications - Orbits, link budget, satellite systems"},
+        {"week_number": 14, "topic": "Wireless System Design - Link budget, capacity planning, QoS"}
+      ]
+    },
+    {
+      "id": 17,
+      "code": "EEEN 421",
+      "name": "Robotics and Automation",
+      "description": "Introduction to robotics including kinematics, dynamics, control, sensors, and actuators. Applications to industrial automation and autonomous systems.",
+      "keywords": "kinematics, dynamics, forward kinematics, inverse kinematics, Jacobian, trajectory planning, robot control, sensors, actuators, mobile robotics, SLAM",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Robotics - History, robot types, applications"},
+        {"week_number": 2, "topic": "Spatial Descriptions - Position, orientation, homogeneous transformations"},
+        {"week_number": 3, "topic": "Forward Kinematics - DH parameters, link transformations"},
+        {"week_number": 4, "topic": "Inverse Kinematics - Analytical and numerical solutions, workspace"},
+        {"week_number": 5, "topic": "Velocity Kinematics - Jacobian matrix, singularities"},
+        {"week_number": 6, "topic": "Dynamics I - Lagrangian formulation, equations of motion"},
+        {"week_number": 7, "topic": "Dynamics II - Newton-Euler formulation, recursive algorithms"},
+        {"week_number": 8, "topic": "Trajectory Planning - Point-to-point, via points, path planning"},
+        {"week_number": 9, "topic": "Robot Control I - PID control, computed torque control"},
+        {"week_number": 10, "topic": "Robot Control II - Force control, impedance control"},
+        {"week_number": 11, "topic": "Sensors for Robotics - Encoders, IMU, vision sensors, force sensors"},
+        {"week_number": 12, "topic": "Actuators - DC motors, stepper motors, servo systems, pneumatics"},
+        {"week_number": 13, "topic": "Mobile Robotics - Locomotion, localization, SLAM basics"},
+        {"week_number": 14, "topic": "Industrial Automation - Robot programming, safety, future trends"}
+      ]
+    },
+    {
+      "id": 18,
+      "code": "EEEN 431",
+      "name": "Optical Communications",
+      "description": "Fundamentals of optical fiber communications including light propagation, optical sources and detectors, fiber characteristics, and optical communication systems.",
+      "keywords": "optical fiber, light propagation, attenuation, dispersion, laser diode, LED, photodiode, WDM, DWDM, optical amplifiers, coherent detection",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Optical Communications - History, advantages, system components"},
+        {"week_number": 2, "topic": "Optical Fiber Basics - Structure, total internal reflection, modes"},
+        {"week_number": 3, "topic": "Fiber Types and Characteristics - Single-mode, multimode, graded-index fibers"},
+        {"week_number": 4, "topic": "Signal Attenuation - Loss mechanisms, attenuation coefficient, fiber windows"},
+        {"week_number": 5, "topic": "Signal Dispersion - Modal dispersion, chromatic dispersion, polarization mode dispersion"},
+        {"week_number": 6, "topic": "Optical Sources I - LED and laser diode principles"},
+        {"week_number": 7, "topic": "Optical Sources II - Direct and external modulation, laser characteristics"},
+        {"week_number": 8, "topic": "Optical Detectors - Photodiode principles, PIN, APD, detector performance"},
+        {"week_number": 9, "topic": "Optical Receivers - Receiver architecture, noise, sensitivity"},
+        {"week_number": 10, "topic": "Digital Optical Communication Systems - Bit rate, link budget, system design"},
+        {"week_number": 11, "topic": "Wavelength Division Multiplexing - WDM principles, DWDM, optical amplifiers"},
+        {"week_number": 12, "topic": "Optical Amplifiers - EDFA, SOA, Raman amplifiers"},
+        {"week_number": 13, "topic": "Advanced Modulation Formats - Coherent detection, QPSK, QAM"},
+        {"week_number": 14, "topic": "Optical Networks - SONET/SDH, optical switches, future technologies"}
+      ]
+    },
+    {
+      "id": 19,
+      "code": "EEEN 441",
+      "name": "Smart Grid Technologies",
+      "description": "Modern electric grid technologies including smart meters, demand response, distributed generation, energy storage, and grid communication systems.",
+      "keywords": "smart grid, smart meters, AMI, demand response, distributed generation, energy storage, microgrids, power electronics, cybersecurity, electric vehicles, V2G",
+      "content": [
+        {"week_number": 1, "topic": "Introduction to Smart Grid - Concept, drivers, benefits, challenges"},
+        {"week_number": 2, "topic": "Traditional Power Grid - Generation, transmission, distribution review"},
+        {"week_number": 3, "topic": "Smart Grid Architecture - Infrastructure layers, components, standards"},
+        {"week_number": 4, "topic": "Advanced Metering Infrastructure - Smart meters, data management, privacy"},
+        {"week_number": 5, "topic": "Demand Response - Load management, pricing schemes, consumer participation"},
+        {"week_number": 6, "topic": "Distributed Energy Resources - DER types, grid integration, impact"},
+        {"week_number": 7, "topic": "Energy Storage Systems - Battery technologies, supercapacitors, grid-scale storage"},
+        {"week_number": 8, "topic": "Microgrids - Architecture, control, islanding, resilience"},
+        {"week_number": 9, "topic": "Power Electronics for Smart Grid - Inverters, converters, FACTS devices"},
+        {"week_number": 10, "topic": "Communication Technologies - PLC, wireless, fiber optics, protocols"},
+        {"week_number": 11, "topic": "Smart Grid Cybersecurity - Threats, encryption, authentication, standards"},
+        {"week_number": 12, "topic": "Electric Vehicles and V2G - EV charging, vehicle-to-grid integration"},
+        {"week_number": 13, "topic": "Grid Analytics - Big data, machine learning, predictive maintenance"},
+        {"week_number": 14, "topic": "Future Grid Technologies - Blockchain, AI, quantum computing applications"}
+      ]
+    },
+    {
+      "id": 20,
+      "code": "EEEN 451",
+      "name": "Embedded Systems Design",
+      "description": "Advanced embedded systems including real-time operating systems, hardware-software co-design, embedded networking, and system-on-chip design.",
+      "keywords": "embedded systems, ARM, RTOS, real-time scheduling, hardware-software co-design, CAN bus, SoC, FPGA, IoT, edge computing, embedded security",
+      "content": [
+        {"week_number": 1, "topic": "Embedded Systems Overview - Characteristics, applications, design challenges"},
+        {"week_number": 2, "topic": "Embedded Processors - ARM, AVR, PIC architectures, selection criteria"},
+        {"week_number": 3, "topic": "Memory Technologies - Flash, SRAM, DRAM, memory management"},
+        {"week_number": 4, "topic": "Embedded C Programming - Optimization, volatile, bit manipulation"},
+        {"week_number": 5, "topic": "Real-Time Systems - Real-time constraints, scheduling, priority"},
+        {"week_number": 6, "topic": "Real-Time Operating Systems I - RTOS concepts, tasks, kernel"},
+        {"week_number": 7, "topic": "RTOS II - Synchronization, semaphores, mutexes, message queues"},
+        {"week_number": 8, "topic": "Hardware-Software Co-Design - Partitioning, co-simulation, optimization"},
+        {"week_number": 9, "topic": "Embedded Networking - CAN bus, Ethernet, wireless protocols"},
+        {"week_number": 10, "topic": "Power Management - Low-power modes, dynamic voltage scaling, energy harvesting"},
+        {"week_number": 11, "topic": "System-on-Chip Design - SoC architecture, IP cores, buses"},
+        {"week_number": 12, "topic": "FPGA-Based Systems - FPGA architecture, HDL design, hardware acceleration"},
+        {"week_number": 13, "topic": "Embedded Security - Secure boot, encryption, trusted execution"},
+        {"week_number": 14, "topic": "IoT and Edge Computing - IoT protocols, edge processing, cloud integration"}
+      ]
+    }
+  ]
 }
