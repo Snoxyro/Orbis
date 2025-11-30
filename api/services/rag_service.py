@@ -29,7 +29,7 @@ class RAGService:
             Tuple of (list of courses with similarity scores, timing dict)
         """
         timings = {}
-        
+        # TODO add intend detection using gemini api
         # Generate query embedding
         embed_start = time.perf_counter()
         query_embedding = self.embedding_service.embed_text(query)
